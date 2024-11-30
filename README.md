@@ -1,4 +1,4 @@
-# :snowflake: :christmas_tree: :snowman: Advent of Code 2023 :snowman: :christmas_tree: :snowflake:
+# :snowflake: :christmas_tree: :snowman: Advent of Code 2024 :snowman: :christmas_tree: :snowflake:
 
 ## About This Repo
 
