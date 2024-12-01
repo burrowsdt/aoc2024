@@ -26,7 +26,7 @@ Finally, I try to solve independently at first but have no qualms about looking 
 
 | Day    |    Completion     |
 |--------|:-----------------:|
-| Day 1  |   :monocle_face:  |
+| Day 1  |   :star: :star:   |
 
 
 ## Caveats, Comments, and H/Ts:
