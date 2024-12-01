@@ -8,9 +8,9 @@ the challenge.
 
 In 2022, I got through Day 8 in Python
 <img src="images/python.svg" alt="Python symbol" width="25" height="25"/>.
-Last year (2023), I got through Day 11 using R <img src="images/R_logo.png" alt="R symbol" width="25" height="25"/>, the language with which I am most comfortable. You can see some of my (very messy) work at [my repo for last year](https://github.com/burrowsdt/advent2023).
+Last year (2023), I got through Day 11 using <img src="images/R_logo.png" alt="R symbol" width="25" height="25"/>, the language with which I am most comfortable. You can see some of my (very messy) work at [my repo for last year](https://github.com/burrowsdt/advent2023).
 
-This year, I’m starting off in R
+This year, I’m starting off in
 <img src="images/R_logo.png" alt="R symbol" width="25" height="25"/> but
 might jump around a bit. I got through long periods of not coding at all - and my skills are pretty limited - so AOC is primarily a way for me to refresh my knowledge, push my limits and try new things, and of course have a bit of fun. I have a very non-competitive, totally fungible goal of hitting day 13 this year.
 
