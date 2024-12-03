@@ -30,7 +30,7 @@ list2 <- as.integer(sort(list2))
 # calculate distance between two lists
 distance <- list2 - list1
 
-# add up the distances
+# add up the distances - solution
 sum(abs(distance))
 
 
