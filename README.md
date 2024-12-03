@@ -28,6 +28,7 @@ Finally, I try to solve independently at first but have no qualms about looking 
 |--------|:-----------------:|
 | Day 1  |   :star: :star:   |
 | Day 2  |   :star: :star:   |
+| Day 3  |   :star: :star:   |
 
 
 ## Caveats, Comments, and H/Ts:
