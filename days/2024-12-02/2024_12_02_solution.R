@@ -1,9 +1,10 @@
 # Day 2 - Red-Nosed Reports
 
 # There is certainly a better way than these complicated for-loops and
-# conditionals --- will refactor soon
+# conditionals --- will probably (maybe, maybe not) refactor soon
 
-# two conditions for safe = all levels increasing/decreasing, two adjacent levels differ by
+# Part 1
+# Two conditions for safe = all levels increasing/decreasing, two adjacent levels differ by
 # at least one, at most three
 
 library(readr)
@@ -31,10 +32,13 @@ length(safe_lines)
 #Part 2 - try removing levels to make a safe report
 
 safe_lines <- c()
+# for fun -- used for sparklines goof
+full_tracker <- c()
 
 for (line in input) {
   if (safety_checker(line) == TRUE) {
     safe_lines <- append(safe_lines, line)
+    full_tracker <- append(full_tracker, "SAFE")
   } else { # if line is not initially safe...
     levels <- str_split_1(line, " ") |> # parse line into levels
       as.integer()
@@ -43,8 +47,11 @@ for (line in input) {
       if (safety_checker(new_line) == TRUE) { # check safety of new line
         # if marked as safe, break and move to next line/input
         safe_lines <- append(safe_lines, line)
+        full_tracker <- append(full_tracker, "SAFE")
         break
-      }
+      } else if (i == length(levels)) {
+        full_tracker <- append(full_tracker, "UNSAFE")   
+      } 
     }
   }
 }

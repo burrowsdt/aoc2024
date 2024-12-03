@@ -1,7 +1,7 @@
-# takes parsed line (as vector of integers) and current index, returns new line
+# `get_new_line` takes parsed line (as vector of integers) and current index, returns new line
 # with current index/element removed
-
 get_new_line <- function(i, levels){
+  # if statements control what to splice based on current index
   if(i == 1) {
     new_line <- levels[2:length(levels)]
   } else if (i == length(levels)) {
@@ -13,8 +13,10 @@ get_new_line <- function(i, levels){
 }
 
 
-# takes line as single string (not integers), determines safety of line
+# `safety_checker` takes line as single string (not integers), determines safety of line
 # according to Part 1 conditions
+
+# will add some comments if i refactor...
 safety_checker <- function(line) {
   condition_tracker <- c()
   safety <- NULL
@@ -43,7 +45,6 @@ safety_checker <- function(line) {
       } else {
         safety <- FALSE
         break
-        print("line unsafe due to repeated numbers")
       }
     }
   }
