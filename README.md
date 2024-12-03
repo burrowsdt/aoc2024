@@ -33,6 +33,6 @@ Finally, I try to solve independently at first but have no qualms about looking 
 ## Caveats, Comments, and H/Ts:
 ### Day 2 - 2024-12-02
 For fun, I played with the `gt` package to create some (very unremarkable) sparklines of the levels for each report. Like so:
-<img src="images/day2_sparklines.png" alt="Snapshot of a table including sparklines" height="200" width="400"/>
+<img src="images/day2_sparklines.png" alt="Snapshot of a table including sparklines" height="100" width="200"/>
 
 See [sparklines.R](days/2024-12-02/sparklines.R) and the examples in the folder. 
