@@ -29,6 +29,7 @@ Finally, I try to solve independently at first but have no qualms about looking 
 | Day 1  |   :star: :star:   |
 | Day 2  |   :star: :star:   |
 | Day 3  |   :star: :star:   |
+| Day 4  |   :star: :star:   |
 
 
 ## Caveats, Comments, and H/Ts:
@@ -37,3 +38,7 @@ For fun, I played with the `gt` package to create some (very unremarkable) spark
 <img src="images/day2_sparklines.png" alt="Snapshot of a table including sparklines" height="100" width="200"/>
 
 See [sparklines.R](days/2024-12-02/sparklines.R) and the examples in the folder. 
+
+## Day 4 - 2024-12-04
+Oh shit, it's grid time.
+This actually wasn't bad, for the first grid. I intentionally hard-coded a few things as I was in a rush, and there are some weird redundancies in part 1 I could clean up. Added a function for grid construction that should be useable in the future. I could do better at turning some of the recurring set-up steps into functions. 
